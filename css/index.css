@@ -1,0 +1,20 @@
+:root {
+    --azul_claro: #0173A7;
+    --azul_mas_claro: rgb(18, 126, 177);
+}
+
+.menu__section {
+    height: 600px;
+    /* border: solid 2px red; */
+}
+.imagen_fondo {
+    width: 100%;
+    max-height: 100%;
+}
+body {
+    background-image: linear-gradient(to right, var(--azul_claro) 50%, var(--azul_mas_claro) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+.menu {
+    font-family: 'Roboto', sans-serif;
+}
