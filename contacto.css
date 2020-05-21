@@ -1,0 +1,26 @@
+
+.Nombre{
+    width: 40%;
+}
+
+.Correo{
+    width: 40%;
+}
+
+.Telefono{
+    width: 40%;
+}
+
+.Mensaje{
+    width: 40%;
+    height: 60%;
+}
+
+
+.meensajitos{
+    margin-left: 35%;
+}
+
+.textCentrar{
+    margin-left: 35%;
+}

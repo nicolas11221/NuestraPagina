@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="menu_nav.css" rel="stylesheet" type="text/css">
+    <link href="whatsapp.css" rel="stylesheet" type="text/css">    
+    <link href="contacto.css" rel="stylesheet" type="text/css"> 
     <title>Document</title>
 </head>
 <body>
@@ -12,9 +14,48 @@
         <li class="Inicio"><a href="#">Inicio</a></li>
         <li class="QuienesSomos"><a href="#">Quienes Somos</a></li>
         <li class="Servicios"><a href="#">Servicios</a></li>
-        <li class="Contacto"><a href="#">Contacto</a></li> 
+        <li class="Contacto"><a href="#contact">Contacto</a></li> 
     </ul>
+
+
+
+    <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=+56999235598"><img class="imgwhat" src="Images/whatsapp.jpg" alt="WhatsApp" /></a>
         
+
+
+
+    <div id="contact" class="section db">
+		<div class="container">
+			<div class="textCentrar">
+				<h3>Contactanos</h3>
+				<p>Si Desea Cotizar O Tiene Dudas De Los Servicios, no dude en contactarnos.</p>
+				<p>Puede hacerlo a través del Formulario</p>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="contact_form">
+						<div id="message"></div>
+							<form action="contact_me.php" name="sentMessage" method="post">
+								<div class="meensajitos">
+								<div class="row">
+									<div class="col-md-6">
+										<input class="Nombre" type="text" name="nombre" placeholder="Nombre" required> <br> <br>
+										<input class="Correo" type="text" name="correo" placeholder="Correo" required> <br> <br>
+										<input class="Telefono" type="text" name="telefono" placeholder="Telefono" required> <br> <br>
+										<textarea class="Mensaje" name="mensaje" placeholder="Escriba Su Mensaje Aqui" required></textarea>
+										<br><br>
+										<input class="botoncito" type="submit" value="ENVIAR" id="boton">
+						
+								</div>
+							    </div>
+							</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
        
 </body>
 </html>
