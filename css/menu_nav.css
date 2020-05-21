@@ -8,11 +8,14 @@
     color: #fff;
 }
 #button li a:hover {
-   
     margin-top: -2;
     padding-bottom: 12px;
 }
 
+#button li a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
 #button a{
     text-decoration: none;
 }
