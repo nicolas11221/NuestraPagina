@@ -12,9 +12,25 @@
     max-height: 100%;
 }
 body {
-    background-image: linear-gradient(to right, var(--azul_claro) 50%, var(--azul_mas_claro) 100%);
+    background-image: linear-gradient(to right, var(--azul_claro) 90%, var(--azul_mas_claro) 100%);
     font-family: 'Roboto', sans-serif;
 }
 .menu {
     font-family: 'Roboto', sans-serif;
+}
+.menu__section {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto {
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.texto p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: white;
 }
