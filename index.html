@@ -6,24 +6,29 @@
     <link href="./css/menu_nav.css" rel="stylesheet" type="text/css">
     <link href="./css/whatsapp.css" rel="stylesheet" type="text/css">    
     <link href="./css/contacto.css" rel="stylesheet" type="text/css"> 
-    <title>Document</title>
+    <title>Prototype</title>
 </head>
 <body>
+    <!-- Begin central menu-->
+    <div class="menu">
+        <ul id="button">
+            <li class="Inicio"><a href="#">Inicio</a></li>
+            <li class="QuienesSomos"><a href="#">Quienes Somos</a></li>
+            <li class="Servicios"><a href="#">Servicios</a></li>
+            <li class="Contacto"><a href="#contact">Contacto</a></li> 
+        </ul>
+    </div>
+    <!--End central menu-->
 
-    <ul id="button">
-        <li class="Inicio"><a href="#">Inicio</a></li>
-        <li class="QuienesSomos"><a href="#">Quienes Somos</a></li>
-        <li class="Servicios"><a href="#">Servicios</a></li>
-        <li class="Contacto"><a href="#contact">Contacto</a></li> 
-    </ul>
+    <!--Begin wsp-->
+    <div class="contact__wsp">
+    <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=+56999235598">
+        <img class="imgwhat" src="Images/whatsapp.jpg" alt="WhatsApp"/>
+    </a>
+    </div>
+    <!-- End wsp-->
 
-
-
-    <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=+56999235598"><img class="imgwhat" src="Images/whatsapp.jpg" alt="WhatsApp" /></a>
-        
-
-
-
+    <!-- Begin  contact section -->
     <div id="contact" class="section db">
 		<div class="container">
 			<div class="textCentrar">
@@ -32,25 +37,23 @@
 				<p>Puede hacerlo a través del Formulario</p>
 			</div>
 			<div class="contact_form">
-				
-						<form action="pho/contact_me.php" name="sentMessage" method="post">
-							<div class="meensajitos">
-								<div class="row">
-									<div class="col-md-6">
-										<input class="Nombre" type="text" name="nombre" placeholder="Nombre" required> <br> <br>
-										<input class="Correo" type="text" name="correo" placeholder="Correo" required> <br> <br>
-										<input class="Telefono" type="text" name="telefono" placeholder="Telefono" required> <br> <br>
-										<textarea class="Mensaje" name="mensaje" placeholder="Escriba Su Mensaje Aqui" required></textarea>
-										<br><br>
-										<input class="botoncito" type="submit" value="ENVIAR" id="boton">
-									</div>
-								</div>
+				<form action="pho/contact_me.php" name="sentMessage" method="post">
+					<div class="meensajitos">
+						<div class="row">
+							<div class="col-md-6">
+								<input class="Nombre" type="text" name="nombre" placeholder="Nombre" required> <br> <br>
+								<input class="Correo" type="text" name="correo" placeholder="Correo" required> <br> <br>
+								<input class="Telefono" type="text" name="telefono" placeholder="Telefono" required> <br> <br>
+								<textarea class="Mensaje" name="mensaje" placeholder="Escriba Su Mensaje Aqui" required></textarea>
+								<br><br>
+								<input class="botoncito" type="submit" value="ENVIAR" id="boton">
 							</div>
-						</form>
+						</div>
+					</div>
+				</form>
 			</div>
-	   </div>
+	    </div>
     </div>
-
-       
+    <!--End contact section-->
 </body>
 </html>
