@@ -1,28 +1,42 @@
 
-.Nombre{
-    width: 40%;
-    border: firebrick;
+.form{
+    background-color: white;
+    border-radius: 3px;
+    font-size: 0.8em;
+    color: black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 300px;
 }
 
-.Correo{
-    width: 40%;
+.form input, textarea{
+    outline: none;
 }
 
-.Telefono{
-    width: 40%;
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+    width: 280px;
 }
 
-.Mensaje{
-    width: 40%;
-    height: 60%;
+.field:focus{
+    border-color: #18A383;
 }
 
-
-.meensajitos{
-    margin-left: -310%;
-    margin-top: 100%;
+.center-content{
+    text-align: center;
 }
 
-.textCentrar{
-    margin-left: 35%;
+.btn{
+    background-color: chocolate;
+    width: 50%;
+    height: 2.1em;
+    border-radius: 10px;
+    box-shadow: 7px 9px 4px rgb(228, 226, 226);
+}
+
+.btn:hover{
+    background-color: #F02828;
+    font-weight: bold;
 }
