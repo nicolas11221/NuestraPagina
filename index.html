@@ -11,8 +11,20 @@
 	<link href="./css/services.css" rel="stylesheet" type="text/css" media="screen"  />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN">
 
+	<!-- SCRIPTS OF JQUERY AND OTHERS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./javascript/button.js"></script>
+	<!--Floating WhatsApp css-->
+	<link rel="stylesheet" href="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.css">
+	<!--Floating WhatsApp javascript-->
+	<script type="text/javascript" src="https://rawcdn.githack.com/rafaelbotazini/floating-whatsapp/3d18b26d5c7d430a1ab0b664f8ca6b69014aed68/floating-wpp.min.js"></script>
+
+	<!-- END OF SCRIPT JQUERY AND OTHERS -->
     <!--GOOGLE FONTS-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+	
+	<!-- CSS PARA ICONOS -->
+	<link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <title>Prototype</title>
 </head>
 <body>
@@ -25,7 +37,12 @@
             <li class="Contacto"><a href="#contact">Contacto</a></li> 
         </ul>
     </div>
-    <!--End central menu-->
+	<!--End central menu-->
+	<!-- TESTING WSP BUTTON -->
+	<div class="containerwsp" >
+		<div id="WAButton" style="z-index: 100;"></div>
+	</div>
+	<!-- END OF TESTING -->
 
     <!-- Begin Main Section-->
     <div class="menu__section">
@@ -36,15 +53,6 @@
 
     </div>
     <!-- End Main Section-->
-
-    <!--Begin wsp-->
-    <div class="contact__wsp">
-    <a title="WhatsApp" href="https://api.whatsapp.com/send?phone=+56999235598">
-        <img class="imgwhat" src="Images/whatsapp.jpg" alt="WhatsApp"/>
-    </a>
-    </div>
-    <!-- End wsp-->
-
 
 	<!--Begin Services 2-->
 		<div class="container">
@@ -104,7 +112,7 @@
 				</div>
 		
 		
-				 <div class="card card4">
+				<div class="card card4">
 					<div class="face face1">
 						<div class="content">
 							<div class="icon">
@@ -121,9 +129,7 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
-			
 		</div>
 	<!-- End Services 2-->
 
