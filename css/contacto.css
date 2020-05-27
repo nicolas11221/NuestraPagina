@@ -40,3 +40,20 @@
     background-color: #F02828;
     font-weight: bold;
 }
+
+.text_contact
+{
+    font-family: 'Roboto', sans-serif;
+}
+.contact_text{
+    margin-left: 44%;
+
+}
+
+.contact_text1{
+    margin-left: 28%;
+}
+
+.contact_text2{
+    margin-left: 29%;
+}
