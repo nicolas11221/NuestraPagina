@@ -4,19 +4,34 @@
    
     .text_contact
 {
+    /* border: 2px solid red; */
+    /*ACA INICIO EL CSS GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     font-family: 'Roboto', sans-serif;
 }
 .contact_text{
-    margin-left: 34%;
+   /* margin-left: 34%;*/
 
 }
 
 .contact_text1{
-    margin-left: 17%;
+   /* margin-left: 10%;*/
+   /* border: 2px solid pink; */
+   display: grid;
+   
+}
+.contact_text1 h4 {
+     padding-left: 10px;
 }
 
 .contact_text2{
-    margin-left: 17%;
+    /* margin-left: 10%; */
+    /* border: 2px solid yellow; */
+}
+.contact_text2 h4 {
+    padding-left: 10px;
 }
 
 }
@@ -25,19 +40,26 @@
    
     .text_contact
 {
+    border: 2px solid red;
+    /*ACA INICIO EL CSS GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
     font-family: 'Roboto', sans-serif;
 }
 .contact_text{
-    margin-left: 45%;
+    /*margin-left: 45%;*/
 
 }
 
 .contact_text1{
-    margin-left: 28%;
+    border: 2px solid pink;
+   /* margin-left: 28%; */
 }
 
 .contact_text2{
-    margin-left: 29%;
+    border: 2px solid yellow;
+    /*margin-left: 29%;*/
 }
 
 }
