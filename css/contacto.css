@@ -1,28 +1,109 @@
 
-.Nombre{
-    width: 40%;
-    border: firebrick;
+
+@media (min-width:360px) {
+   
+    .text_contact
+{
+    /* border: 2px solid red; */
+    /*ACA INICIO EL CSS GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contact_text{
+   /* margin-left: 34%;*/
+
 }
 
-.Correo{
-    width: 40%;
+.contact_text1{
+   /* margin-left: 10%;*/
+   /* border: 2px solid pink; */
+   display: grid;
+   
+}
+.contact_text1 h4 {
+     padding-left: 10px;
 }
 
-.Telefono{
-    width: 40%;
+.contact_text2{
+    /* margin-left: 10%; */
+    /* border: 2px solid yellow; */
+}
+.contact_text2 h4 {
+    padding-left: 10px;
 }
 
-.Mensaje{
-    width: 40%;
-    height: 60%;
+}
+
+@media (min-width:720px) {
+   
+    .text_contact
+{
+    border: 2px solid red;
+    /*ACA INICIO EL CSS GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.contact_text{
+    /*margin-left: 45%;*/
+
+}
+
+.contact_text1{
+    border: 2px solid pink;
+   /* margin-left: 28%; */
+}
+
+.contact_text2{
+    border: 2px solid yellow;
+    /*margin-left: 29%;*/
+}
+
 }
 
 
-.meensajitos{
-    margin-left: -310%;
-    margin-top: 100%;
+.form{
+    background-color: white;
+    border-radius: 3px;
+    font-size: 0.8em;
+    color: black;
+    padding: 15px;
+    margin: 0 auto;
+    width: 300px;
 }
 
-.textCentrar{
-    margin-left: 35%;
+.form input, textarea{
+    outline: none;
 }
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+
+    width: 280px;
+}
+
+.field:focus{
+    border-color: #18A383;
+}
+
+.center-content{
+    text-align: center;
+}
+
+.btn{
+    background-color: chocolate;
+    width: 50%;
+    height: 2.1em;
+    border-radius: 10px;
+    box-shadow: 7px 9px 4px rgb(228, 226, 226);
+}
+
+.btn:hover{
+    background-color: #F02828;
+    font-weight: bold;
+}
+
