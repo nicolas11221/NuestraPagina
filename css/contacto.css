@@ -40,7 +40,7 @@
    
     .text_contact
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /*ACA INICIO EL CSS GRID*/
     display: grid;
     grid-template-columns: 1fr;
@@ -53,12 +53,12 @@
 }
 
 .contact_text1{
-    border: 2px solid pink;
+    /* border: 2px solid pink; */
    /* margin-left: 28%; */
 }
 
 .contact_text2{
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     /*margin-left: 29%;*/
 }
 
