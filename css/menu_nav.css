@@ -1,4 +1,4 @@
-
+/* 
 #button{
     font-family: Arial;
     font-size: 20px;
@@ -34,34 +34,40 @@
 }
 .Contacto{
     margin-right: 2%;
+
 }
 
+/* 
+BEGIN FOR RESPONSIVE AREA */
+/* @media (max-width: 326) {
+    #button li {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+} */ 
 
+/* EDITED BY JEAN */
+.menu__container {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    justify-items: center;
+    padding-top: 10px;
+    justify-content: center;
+}
 
-/*
-#button li a {
-    font-family: Arial;
-    font-size: 25px;
+.menu__subtitle {
     text-decoration: none;
-    margin-left: 10;
-    padding: 10px;
-    background-color: #2175bc;
-    color: #fff;
-    }
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
 
-#button {
-    padding: 0;
+@media(min-width: 325px) and (max-width: 570px) {
+    .menu__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+        /* background-color: red; */
     }
-       
-
-#button li {
-    display: inline;
-    }
-
-#button li a:hover {
-    background-color: #2586d7;
-    margin-top: -2;
-    padding-bottom: 12px;
-    }
-
-*/
+}
