@@ -14,8 +14,9 @@
     max-height: 100%;
 }
 body {
-    background-image: linear-gradient(to right, var(--azul_claro) 90%, var(--azul_mas_claro) 100%);
+    /* background-image: linear-gradient(to right, var(--azul_claro) 90%, var(--azul_mas_claro) 100%); */
     font-family: 'Roboto', sans-serif;
+    background-size: auto 100%;
 }
 .menu {
     font-family: 'Roboto', sans-serif;
