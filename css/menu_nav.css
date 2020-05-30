@@ -1,5 +1,4 @@
 
-/* EDITED BY JEAN */
 .menu__container {
     display: grid;
     grid-template-columns: repeat(4, 150px);
@@ -21,6 +20,5 @@
         display: grid;
         grid-template-columns: 1fr;
         padding-bottom: 10px;
-        /* background-color: red; */
     }
 }

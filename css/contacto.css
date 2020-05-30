@@ -3,29 +3,29 @@
 @media (min-width:360px) {
     .text_contact
 {
-    /* border: 2px solid red; */
-    /*ACA INICIO EL CSS GRID*/
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-family: 'Libre Franklin', sans-serif;
+
 }
 
 .contact_text{
     color: white;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 .contact_text1{
    display: grid;
+   font-size: 1.3em;
+   padding-left: 10px;
+   color: white;
 }
 
-.contact_text1 h4 {
-    padding-left: 10px;
-    color: white;
-}
 
-.contact_text2 h4 {
+.contact_text2 {
     padding-left: 10px;
     color: white;
+    font-size: 1.3em;
 }
 
 }
@@ -34,14 +34,10 @@
    
     .text_contact
 {
-    /* border: 2px solid red; */
-    /*ACA INICIO EL CSS GRID*/
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-family: 'Libre Franklin', sans-serif;
 }
-
 }
 
 .form{
@@ -63,6 +59,15 @@
     padding: 10px;
 
     width: 280px;
+}
+
+.field__number{
+    border: solid 1px #ccc;
+    padding: 10px;
+    width: 280px;
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
 }
 
 .field:focus{
