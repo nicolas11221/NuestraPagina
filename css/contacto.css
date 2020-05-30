@@ -12,16 +12,21 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.contact_text{
+    color: white;
+}
 .contact_text1{
    display: grid;
 }
 
 .contact_text1 h4 {
-     padding-left: 10px;
+    padding-left: 10px;
+    color: white;
 }
 
 .contact_text2 h4 {
     padding-left: 10px;
+    color: white;
 }
 
 }
