@@ -2,12 +2,11 @@
 
 @media (min-width:360px) {
     .text_contact
-{
+   {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-
-}
+   }
 
 .contact_text{
     color: white;

@@ -26,23 +26,20 @@
     margin: 2px;
 }
 
-
 @media (min-width:360px) {
-   
     .About_Us
-{
+   {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
     font-family: 'Roboto', sans-serif;
-}
+   }
 }
 
 @media (min-width:720px) {
-   
     .About_Us
-{
+   {
     display: grid;
     grid-template-columns: 1.8fr 1fr;
-}
+   }
 }
