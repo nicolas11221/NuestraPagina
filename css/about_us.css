@@ -1,22 +1,57 @@
+
+    /*Contenedor*/ 
 .About_Us {
     display: grid;
     grid-template-columns: 1.8fr 1fr;
 }
+    /*Contenedor Frases*/ 
 .About_Us__phrases {
     display: grid;
     justify-content: center;
     margin: 20px;
     color: white;
+
+    
 }
+
+.About_US__Main_phrase {
+    font-weight: bold;
+    
+}
+
 .About_Us__Text {
     font: 'Roboto', sans-serif;
     font-size: 1.2em;
     display: grid;
     margin: 2px;
 }
-.About_US__Main_phrase {
-    font-weight: bold;
-}
+
 .About_Us__image {
     /* border: 2px solid red; */
+    /* display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; */
+}
+
+
+@media (min-width:360px) {
+   
+    .About_Us
+{
+    /* border: 2px solid red; */
+    /*ACA INICIO EL CSS GRID*/
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+}
+
+@media (min-width:720px) {
+   
+    .About_Us
+{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+}
 }
