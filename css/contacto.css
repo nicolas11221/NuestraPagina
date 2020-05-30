@@ -1,7 +1,6 @@
 
 
 @media (min-width:360px) {
-   
     .text_contact
 {
     /* border: 2px solid red; */
@@ -9,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .contact_text{
    /* margin-left: 34%;*/
@@ -45,7 +44,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .contact_text{
     /*margin-left: 45%;*/

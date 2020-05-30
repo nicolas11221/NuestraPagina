@@ -15,11 +15,11 @@
 }
 body {
     /* background-image: linear-gradient(to right, var(--azul_claro) 90%, var(--azul_mas_claro) 100%); */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     background-size: auto 100%;
 }
 .menu {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 .menu__section {
     position: relative;
@@ -33,7 +33,7 @@ body {
     transform: translate(-50%, -50%);
 }
 .texto p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;
     color: white;
 }
