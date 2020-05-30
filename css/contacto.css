@@ -11,25 +11,15 @@
     justify-items: center;
     font-family: 'Roboto', sans-serif;
 }
-.contact_text{
-   /* margin-left: 34%;*/
-
-}
 
 .contact_text1{
-   /* margin-left: 10%;*/
-   /* border: 2px solid pink; */
    display: grid;
-   
 }
+
 .contact_text1 h4 {
      padding-left: 10px;
 }
 
-.contact_text2{
-    /* margin-left: 10%; */
-    /* border: 2px solid yellow; */
-}
 .contact_text2 h4 {
     padding-left: 10px;
 }
@@ -47,23 +37,8 @@
     justify-items: center;
     font-family: 'Roboto', sans-serif;
 }
-.contact_text{
-    /*margin-left: 45%;*/
 
 }
-
-.contact_text1{
-    /* border: 2px solid pink; */
-   /* margin-left: 28%; */
-}
-
-.contact_text2{
-    /* border: 2px solid yellow; */
-    /*margin-left: 29%;*/
-}
-
-}
-
 
 .form{
     background-color: white;
