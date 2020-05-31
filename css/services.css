@@ -5,6 +5,7 @@
     display: grid;
     grid-template-areas: " card1 card2 card3 card4";
     justify-content: space-between;
+    font-family: 'Libre Franklin', sans-serif;
 }
 
 .container .card {

@@ -16,11 +16,12 @@
 
 .About_US__Main_phrase {
     font-weight: bold;
+    font-family: 'Libre Franklin', sans-serif;
     
 }
 
 .About_Us__Text {
-    font: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     font-size: 1.2em;
     display: grid;
     margin: 2px;
@@ -34,7 +35,7 @@
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
 }
 }
 
