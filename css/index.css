@@ -3,21 +3,41 @@
     --azul_mas_claro: rgb(18, 126, 177);
 }
 
-.menu__section {
+/* .menu__section {
     height: 600px;
 }
 .imagen_fondo {
     width: 100%;
     max-height: 100%;
-}
+} */
 body {
     font-family: 'Libre Franklin', sans-serif;
     background-size: auto 100%;
 }
+.menu_section {
+    display: grid;
+    /* border: 2px solid red; */
+    grid-template-columns: 1fr 1.6fr;
+}
+.menu_section__texto {
+    /* border: 2px solid green; */
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menu_section__image img {
+    max-width: 100%;
+
+}
 .menu {
     font-family: 'Libre Franklin', sans-serif;
 }
-.menu__section {
+/* .menu__section {
     position: relative;
     display: inline-block;
     text-align: center;
@@ -32,4 +52,4 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 25px;
     color: white;
-}
+} */
