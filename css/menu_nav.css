@@ -1,7 +1,7 @@
 
 .menu__container {
     display: grid;
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(4, 200px);
     justify-items: center;
     padding-top: 10px;
     justify-content: center;
@@ -17,6 +17,13 @@
 }
 
 @media(min-width: 325px) and (max-width: 570px) {
+    .menu__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 10px;
+    }
+}
+@media(min-width: 571px) and (max-width: 716px) {
     .menu__container {
         display: grid;
         grid-template-columns: 1fr;
