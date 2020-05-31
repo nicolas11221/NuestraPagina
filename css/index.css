@@ -1,15 +1,4 @@
-:root {
-    --azul_claro: #0173A7;
-    --azul_mas_claro: rgb(18, 126, 177);
-}
 
-/* .menu__section {
-    height: 600px;
-}
-.imagen_fondo {
-    width: 100%;
-    max-height: 100%;
-} */
 body {
     font-family: 'Libre Franklin', sans-serif;
     background-size: auto 100%;
@@ -37,19 +26,11 @@ body {
 .menu {
     font-family: 'Libre Franklin', sans-serif;
 }
-/* .menu__section {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+
+@media(min-width: 325px) and (max-width: 570px) {
+    .menu_section {
+        display: grid;
+        /* border: 2px solid red; */
+        grid-template-columns: 1fr;
+    }
 }
-.texto {
-    position: absolute;
-    top: 45%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-}
-.texto p {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 25px;
-    color: white;
-} */

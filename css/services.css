@@ -1,8 +1,9 @@
 
 .container {
-    width: 1000px;
+    max-width: 100%;
     position: relative;
-    display: flex;
+    display: grid;
+    grid-template-areas: " card1 card2 card3 card4";
     justify-content: space-between;
 }
 
@@ -128,7 +129,9 @@ i {
 
 .wrapper__cards {
     display: grid;
+    max-width: 100%;
     grid-template-areas: " card1 card2 card3 card4";
+    /* grid-template-columns: repeat(4, 1fr); */
     justify-content: center;
     gap: 42.5px;
 
@@ -144,4 +147,30 @@ i {
 }
 .card4 {
     grid-area: card4;
+}
+.grid_container {
+    width: 100%;
+}
+
+@media (max-width: 720px){
+    .container {
+        display: grid;
+        /* border: 2px solid red; */
+        grid-template-areas: " card1"
+                              "card2"
+                              "card3"
+                              "card4";
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1290px) and (min-width: 721px){
+    .container {
+        display: grid;
+        /* border: 2px solid red; */
+        grid-template-areas: " card1 card2"
+                             "card3 card4";
+        justify-content: center;
+        gap: 45px;
+    }
 }
