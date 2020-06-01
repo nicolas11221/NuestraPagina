@@ -1,0 +1,31 @@
+
+
+
+.About_Us_Picture
+
+.Only_Pictures
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 184px 184px;
+    border: 2px solid green;
+    
+}
+
+.Only_Pictures__J
+{
+   margin: 5px;
+}
+.frase_jean {
+    border: 2px yellow solid;
+    
+}
+.frase_nico {
+    border: 2px greenyellow solid;
+    
+}
+
+.Only_Pictures__N
+{
+    margin: 5px;
+}
