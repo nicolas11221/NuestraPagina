@@ -1,0 +1,45 @@
+
+.All_Presentation
+{
+    display: grid;
+    border: 3px solid green;
+    grid-template-rows: 500px;
+    grid-template-columns: repeat(4, 4fr);
+    color: white;
+}
+
+.First_tarjet
+{
+    display: grid;
+    /* PARA LOS LADOS */
+    justify-content: center;
+    /* PARA ARRIBA Y ABAJO */
+    align-content: initial;
+}
+
+.Second_tarjet
+{
+    display: grid;
+    /* PARA LOS LADOS */
+    justify-content: center;
+    /* PARA ARRIBA Y ABAJO */
+    align-content: initial;
+}
+
+.third_tarjet
+{
+    display: grid;
+    /* PARA LOS LADOS */
+    justify-content: center;
+    /* PARA ARRIBA Y ABAJO */
+    align-content: initial;
+}
+
+.Fourth_tarjet
+{
+    display: grid;
+    /* PARA LOS LADOS */
+    justify-content: center;
+    /* PARA ARRIBA Y ABAJO */
+    align-content: initial;
+}
