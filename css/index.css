@@ -34,3 +34,10 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+/*
+@font-face{
+    font-family:themillion;
+    src: url(Fonts/Megan\ June.otf)
+}
+*/

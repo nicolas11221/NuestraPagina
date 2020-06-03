@@ -1,45 +1,60 @@
 
 .All_Presentation
 {
+    margin-top: 50px;
     display: grid;
-    border: 3px solid green;
+    /*border: 3px solid green;*/
     grid-template-rows: 500px;
-    grid-template-columns: repeat(4, 4fr);
+    grid-template-columns: repeat(4, 1fr);
     color: white;
+    gap: 5px;
 }
 
 .First_tarjet
 {
+
+    border: 3px solid red;
+   
+}
+.Tarjet_One
+{
     display: grid;
-    /* PARA LOS LADOS */
-    justify-content: center;
-    /* PARA ARRIBA Y ABAJO */
-    align-content: initial;
+    /* justify-content: center; */
+    margin: 10px;
 }
 
 .Second_tarjet
 {
+
+    border: 3px solid aqua;
+}
+.Tarjet_Two
+{
     display: grid;
-    /* PARA LOS LADOS */
-    justify-content: center;
-    /* PARA ARRIBA Y ABAJO */
-    align-content: initial;
+    /* justify-content: center; */
+    margin: 10px;
 }
 
 .third_tarjet
 {
+
+    border: 3px solid gold;
+}
+.Tarjet_Tree
+{
     display: grid;
-    /* PARA LOS LADOS */
-    justify-content: center;
-    /* PARA ARRIBA Y ABAJO */
-    align-content: initial;
+    /* justify-content: center; */
+    margin: 10px;
 }
 
 .Fourth_tarjet
 {
+
+    border: 3px solid salmon;
+}
+.Tarjet_Four
+{
     display: grid;
-    /* PARA LOS LADOS */
-    justify-content: center;
-    /* PARA ARRIBA Y ABAJO */
-    align-content: initial;
+    /* justify-content: center; */
+    margin: 10px;
 }
